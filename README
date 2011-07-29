@@ -1,3 +1,8 @@
-A bunch of useful python scripts used for text processing and parsing.
+A collection of useful python scripts used for text processing and parsing.
+* BeautifulSoup
+* html2plaintext
 
 Grouped together for easy deployment on django and useful for other django apps that depend on these text processing capabilities.
+
+It is noted that we can install BeautifulSoup using our linux package manager of via PIP/Virtualenv too; however, the objective of creating this standalone django app is to make it easy for these Python Libraries to work together with in-built Django functionality, in particular, the modification in html2plaintext to use django.utils.safestring and django.utils.unicode modules.
+
