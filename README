@@ -1,0 +1,3 @@
+A bunch of useful python scripts used for text processing and parsing.
+
+Grouped together for easy deployment on django and useful for other django apps that depend on these text processing capabilities.
